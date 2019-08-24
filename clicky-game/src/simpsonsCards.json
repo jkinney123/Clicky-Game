@@ -1,0 +1,76 @@
+[
+{
+    "id": 1,
+    "image": "./assets/images/bart-simpson.jpg",
+    "clicked": false
+},
+
+{
+    "id": 2,
+    "image": "./assets/images/homer.jpg",
+    "clicked": false
+},
+
+{
+    "id": 3,
+    "image": "./assets/images/krusty.jpg",
+    "clicked": false
+},
+
+
+
+{
+    "id": 4,
+    "image": "./assets/images/lisa.jpg",
+    "clicked": false
+},
+
+{
+    "id": 5,
+    "image": "./assets/images/maggie.jpg",
+    "clicked": false
+},
+
+{
+    "id": 6,
+    "image": "./assets/images/marge.jpg",
+    "clicked": false
+},
+
+{
+    "id": 7,
+    "image": "./assets/images/mrBurns.jpg",
+    "clicked": false
+},
+
+{
+    "id": 8,
+    "image": "./assets/images/nelson.jpg",
+    "clicked": false
+},
+
+{
+    "id": 9,
+    "image": "./assets/images/ralph.jpg",
+    "clicked": false
+},
+
+{
+    "id": 10,
+    "image": "./assets/images/s-bob.jpg",
+    "clicked": false
+},
+
+{
+    "id": 11,
+    "image": "./assets/images/willie.jpg",
+    "clicked": false
+},
+
+{
+    "id": 12,
+    "image": "./assets/images/apu.jpg",
+    "clicked": false
+}
+
+]
