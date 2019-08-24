@@ -84,36 +84,40 @@ if(clickedMatch[0].clicked) {
     this.setState({alertMsg});
 
   }
+};
 
+render() {
+return (
+  <Wrapper>
+    <Title>Clicky-Game: Simpsons version</Title>
+    <h2 className="scoreSummary">
+      {this.state.alertMsg}
+    </h2>
 
+    <h2 className = "scoreSummary">
+      Correct Guesses: {this.state.correctMatches}
+      <br />
+      Top Score: {this.statetopScore}
+    </h2>
 
+    {this.state.matches.map(match => (
+      <CardMatch
+        imageClick={this.imageClick}
+        id={match.id}
+        key={match.id}
+        image={match.image}
+      />
 
+    ))}
 
+    </Wrapper>
+)
+
+}
 
 }
 
 
-}
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+ 
 
 export default App;
