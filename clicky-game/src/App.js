@@ -111,7 +111,7 @@ return (
     ))}
 
     </Wrapper>
-)
+);
 
 }
 
