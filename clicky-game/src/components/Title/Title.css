@@ -1,5 +1,8 @@
 .title {
     width: 100%;
     text-align: center;
-    color: yellow;
+    color: black;
+    position: relative;
+    bottom: 15px;
+    font-size: 40px;
 }
