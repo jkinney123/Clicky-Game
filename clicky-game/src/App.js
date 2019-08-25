@@ -89,7 +89,7 @@ if(clickedMatch[0].clicked) {
 render() {
 return (
   <Wrapper>
-    <Title>Clicky-Game: Simpsons version</Title>
+    <Title>Clicky-Game: <span>The Simpsons</span></Title>
     <h2 className="scoreSummary">
       {this.state.alertMsg}
     </h2>
