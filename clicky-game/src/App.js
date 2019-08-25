@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
-import CardMatch from "./components/CardMatch";
-import Title from "./components/Title";
-import Wrapper from "./components/Wrapper";
+import CardMatch from "./components/CardMatch/CardMatch";
+import Title from "./components/Title/Title";
+import Wrapper from "./components/Wrapper/Wrapper";
 import matches from "./simpsonsCards.json";
 import './App.css';
 
